@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:id="display" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Answer">
+   <children>
+      <TextArea fx:id="answer" layoutX="8.0" layoutY="56.0" prefHeight="304.0" prefWidth="585.0" />
+      <Text layoutX="230.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="正确答案" wrappingWidth="140.66668701171875">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

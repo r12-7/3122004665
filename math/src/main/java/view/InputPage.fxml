@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane fx:id="page1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" fx:controller="Controller.InputPage" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="144.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="请输入生成式子的范围" wrappingWidth="179.33330917358398" />
+      <Text layoutX="148.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="请输入生成式子的数目" wrappingWidth="171.99999618530273" />
+      <TextField fx:id="limit" layoutX="291.0" layoutY="49.0" prefHeight="23.0" prefWidth="40.0" />
+      <TextField fx:id="number" layoutX="291.0" layoutY="106.0" prefHeight="23.0" prefWidth="40.0" />
+      <Button fx:id="ok" layoutX="234.0" layoutY="176.0" mnemonicParsing="false" onAction="#Submit" text="确认" />
+   </children>
+</AnchorPane>
